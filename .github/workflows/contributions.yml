@@ -36,12 +36,15 @@ jobs:
       - name: Add accessible descriptions and static alternatives
         run: node scripts/generate-contributions.mjs
 
+      - name: Generate the space arcade scene
+        run: python3 scripts/generate-arcade.py --space-only
+
       - name: Commit changed animation assets
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          git add -- assets/contributions-light.svg assets/contributions-dark.svg assets/contributions-light-static.svg assets/contributions-dark-static.svg
-          if git diff --cached --quiet -- assets/contributions-light.svg assets/contributions-dark.svg assets/contributions-light-static.svg assets/contributions-dark-static.svg; then
+          git add -- assets/contributions-light.svg assets/contributions-dark.svg assets/contributions-light-static.svg assets/contributions-dark-static.svg assets/space-contributions.svg assets/space-contributions-static.svg
+          if git diff --cached --quiet; then
             echo "Contribution animation is already current."
             exit 0
           fi

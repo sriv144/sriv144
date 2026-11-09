@@ -1,94 +1,60 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-mobile-dark-static.svg">
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-mobile-light-static.svg">
-  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-dark-static.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-light-static.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="./assets/hero-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <img src="./assets/hero-light.svg" alt="Srivatsan · @sriv144. Applied AI, data, and systems. From models to useful systems." width="100%">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/cozy-header-static.svg">
+  <img src="./assets/cozy-header.svg" alt="Srivaths working in a cozy hand-painted attic studio, with a little robot, warm tea, fireflies, and a starry evening sky." width="100%">
 </picture>
 
-<p align="center">
-  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#toolbox">Toolbox</a> &nbsp; / &nbsp;
-  <a href="https://github.com/sriv144?tab=repositories">All repositories ↗</a>
-</p>
+<p align="center"><b>Big Professor energy. Small, reviewable commits.</b><br>
+I’m Srivaths — building AI agents, data systems, and robots in simulation.<br>
+Occasionally negotiating with a stubborn semicolon.</p>
 
-**I build AI and data systems that do useful work.**
+<p align="center"><a href="#a-tiny-arcade">Arcade</a> &nbsp; ✦ &nbsp; <a href="#toolbox">Toolbox</a> &nbsp; ✦ &nbsp; <a href="#current-side-quests">Side quests</a> &nbsp; ✦ &nbsp; <a href="https://github.com/sriv144">GitHub ↗</a></p>
 
-My projects connect models with the engineering around them: retrieval, APIs, data pipelines, simulation, and infrastructure. I’m drawn to problems where a clever idea has to become something understandable, testable, and useful.
+## A tiny arcade
 
-Right now, that means exploring **agent workflows, reinforcement learning, and multi-robot systems**.
+Winter is coming. Bring a warm drink and an extra life.
 
-## Selected work
+### 01 · Commit Cosmos
 
-<sub>01 / FINANCIAL DOCUMENT INTELLIGENCE</sub>
+A little spacecraft patrols a sky built from my public contribution calendar. Every tile is a day; brighter stars mean more activity. Land a shot, watch a tile burn, then start another round.
 
-### [FinLens ↗](https://github.com/sriv144/FinLens)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/space-contributions-static.svg">
+  <img src="./assets/space-contributions.svg" alt="An autoplay space-shooter animation: a spacecraft flies beneath star tiles representing real public contribution activity." width="100%" loading="lazy">
+</picture>
 
-Turn SEC filings into answers with source retrieval, year-over-year comparisons, structured KPIs, and Excel exports.
+### 02 · The contribution snake
 
-`Python` `FastAPI` `Streamlit` `ChromaDB` `RAG`
+Friends don’t lie. Neither does the contribution graph.
 
-<sub>02 / ROBOTICS & SIMULATION</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/contributions-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-light-static.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
+  <img src="./assets/contributions-light.svg" alt="A snake follows Srivaths’ actual public GitHub contribution calendar." width="100%" loading="lazy">
+</picture>
 
-### [Embodied Skill Composer ↗](https://github.com/sriv144/embodied-skill-composer)
-
-A robotics research workbench for coordinating four robots through modular construction, with constraint-based scheduling and a browser digital twin.
-
-`Python` `PyTorch` `OR-Tools` `React` `Three.js`
-
-<sub>03 / QUANTITATIVE RESEARCH</sub>
-
-### [AegisQuant ↗](https://github.com/sriv144/AegisQuant)
-
-Benchmark-aware investment research and paper trading, with point-in-time data checks, execution gates, and audit trails.
-
-`Python` `pandas` `PostgreSQL` `Alpaca` `Docker`
-
-<sub>04 / AGENTS & INFRASTRUCTURE</sub>
-
-### [KubeSentient ↗](https://github.com/sriv144/Autonomous-SRE-Agent)
-
-An SRE agent that investigates Kubernetes alerts, retrieves relevant runbooks, and produces structured remediation plans.
-
-`Python` `FastAPI` `LangGraph` `Weaviate` `Kubernetes`
-
-More to explore: [data engineering experiments](https://github.com/sriv144/tds-iitm) · [RSA security analysis](https://github.com/sriv144/RSA-Vulnerability-Analyzer)
-
-## How I approach a build
-
-**Understand the problem → build a small working path → evaluate it → iterate.**
-
-I care about the parts around the model as much as the model itself: clear interfaces, useful diagnostics, reproducible experiments, and a path from prototype to maintainable software.
+<sub>Autoplay game scenes, refreshed daily from public contribution activity.</sub>
 
 ## Toolbox
 
-| Area | Tools I work with |
-| :--- | :--- |
-| Languages | Python · TypeScript · SQL |
-| AI & research | PyTorch · LangGraph · RAG · sentence-transformers · PettingZoo |
-| Interfaces & APIs | FastAPI · React · Three.js · Streamlit |
-| Data & infrastructure | PostgreSQL · ChromaDB · Weaviate · Docker · Kubernetes · GitHub Actions |
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/toolbox-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="./assets/toolbox-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-dark.svg">
+  <img src="./assets/toolbox-light.svg" alt="Srivaths’ workbench. Languages: Python, TypeScript, SQL. AI and retrieval: PyTorch, LangGraph, RAG. Web and APIs: FastAPI, React, Three.js. Data and infrastructure: PostgreSQL, Docker, Kubernetes." width="100%" loading="lazy">
+</picture>
 
-## A little motion, powered by real commits
+## Current side quests
 
-<details>
-  <summary>Play the contribution snake</summary>
-  <br>
-  <picture>
-    <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/contributions-dark-static.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-light-static.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
-    <img src="./assets/contributions-light.svg" alt="A snake tracing Srivatsan’s real GitHub contribution calendar. Close this section to hide the animation." width="100%" loading="lazy">
-  </picture>
-  <p><sub>Generated from public contribution data. Refreshed daily with GitHub Actions.</sub></p>
-</details>
+- **AI agents & retrieval** — connecting models to tools, useful context, and workflows.
+- **Robotics & reinforcement learning** — simulation, robot coordination, and learning through experiments.
+- **Data engineering** — turning messy inputs into reproducible pipelines and useful interfaces.
+- **Financial intelligence** — document understanding, research tools, and risk-aware paper-trading experiments.
+- **Cloud & reliability** — Kubernetes, observability, and making complex systems easier to investigate.
+- **Security & cryptography** — understanding failure modes and how to prevent them.
 
 ---
 
-**Let’s build something useful.** If one of these projects sparks an idea, [open a conversation in its issues](https://github.com/sriv144/FinLens/issues).
-
-<sub>Curious about the code. Serious about making it work.</sub>
+<p align="center"><b>Challenge accepted. See you in the next commit.</b><br>
+<a href="https://github.com/sriv144?tab=repositories">Meet the supporting cast ↗</a></p>
 

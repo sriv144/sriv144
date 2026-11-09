@@ -34,7 +34,7 @@ function describe(svg, isStatic = false) {
     .replace(/<desc\b[^>]*>[\s\S]*?<\/desc>/g, '')
     .replace(/<svg\b([^>]*)>/, (_, attributes) => {
       const clean = attributes.replace(/\s(?:role|aria-labelledby)="[^"]*"/g, '');
-      return `<svg${clean} role="img" aria-labelledby="contribution-title contribution-desc"><title id="contribution-title">Srivatsan's GitHub contribution activity</title><desc id="contribution-desc">${description}</desc>`;
+      return `<svg${clean} role="img" aria-labelledby="contribution-title contribution-desc"><title id="contribution-title">Srivaths's GitHub contribution activity</title><desc id="contribution-desc">${description}</desc>`;
     });
 }
 

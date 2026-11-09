@@ -1,32 +1,60 @@
-# Hi, I'm Srivatsan
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/cozy-header-static.svg">
+  <img src="./assets/cozy-header.svg" alt="Srivaths working in a cozy hand-painted attic studio, with a little robot, warm tea, fireflies, and a starry evening sky." width="100%">
+</picture>
 
-I build AI and data systems that connect models, software, and real-world workflows. My work currently sits around applied AI, data science, finance, robotics, security, and cloud/SRE automation.
+<p align="center"><b>Big Professor energy. Small, reviewable commits.</b><br>
+I’m Srivaths — building AI agents, data systems, and robots in simulation.<br>
+Occasionally negotiating with a stubborn semicolon.</p>
 
-## Focus Areas
+<p align="center"><a href="#a-tiny-arcade">Arcade</a> &nbsp; ✦ &nbsp; <a href="#toolbox">Toolbox</a> &nbsp; ✦ &nbsp; <a href="#current-side-quests">Side quests</a> &nbsp; ✦ &nbsp; <a href="https://github.com/sriv144">GitHub ↗</a></p>
 
-- Applied AI systems: agents, retrieval, LLM workflows, evaluation, and automation.
-- Data science engineering: scraping, cleaning, APIs, SQL/DuckDB, geospatial analysis, and reproducible pipelines.
-- Finance and quantitative systems: SEC filing intelligence, portfolio modeling, and risk-aware ML.
-- Robotics and reinforcement learning: simulation, hierarchical policies, and multi-agent coordination.
-- Infrastructure and reliability: Kubernetes/SRE agents, runbooks, observability, and cloud-native tooling.
-- Security: cryptography experiments, attack demonstrations, and prevention analysis.
+## A tiny arcade
 
-## Selected Work
+Winter is coming. Bring a warm drink and an extra life.
 
-| Project | What it shows |
-| --- | --- |
-| [tds-iitm](https://github.com/sriv144/tds-iitm) | Broad data science and AI engineering work across APIs, scraping, SQL, DuckDB, geospatial analytics, LLM/RAG workflows, automation, and deployment. |
-| [FinLens](https://github.com/sriv144/FinLens) | Financial document intelligence for SEC filings using FastAPI, Streamlit, RAG, KPI extraction, and Excel exports. |
-| [AegisQuant](https://github.com/sriv144/AegisQuant) | Reinforcement-learning portfolio system with backtesting, risk controls, and trading workflow architecture. |
-| [embodied-skill-composer](https://github.com/sriv144/embodied-skill-composer) | Robotics/RL research sandbox for hierarchical skills, multi-agent coordination, and simulation-backed evaluation. |
-| [Autonomous-SRE-Agent](https://github.com/sriv144/Autonomous-SRE-Agent) | Kubernetes SRE agent that combines AlertManager webhooks, runbook retrieval, investigation tools, and remediation planning. |
-| [RSA-Vulnerability-Analyzer](https://github.com/sriv144/RSA-Vulnerability-Analyzer) | Cryptography/security project demonstrating RSA weaknesses, prevention strategies, and analysis visualizations. |
+### 01 · Commit Cosmos
 
-## Technical Stack
+A little spacecraft patrols a sky built from my public contribution calendar. Every tile is a day; brighter stars mean more activity. Land a shot, watch a tile burn, then start another round.
 
-Python, FastAPI, Streamlit, Flask, SQL, DuckDB, SQLite, Pandas, NumPy, scikit-learn, sentence-transformers, ChromaDB, RAG pipelines, LangGraph, Docker, Kubernetes, Helm, GitHub Actions, Playwright, PowerShell, R, and modern frontend basics.
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/space-contributions-static.svg">
+  <img src="./assets/space-contributions.svg" alt="An autoplay space-shooter animation: a spacecraft flies beneath star tiles representing real public contribution activity." width="100%" loading="lazy">
+</picture>
 
-## What I Like Building
+### 02 · The contribution snake
 
-I am most interested in systems where AI has to do useful work under constraints: financial research tools, data-heavy automation, reliable agents, robotics/simulation workflows, and infrastructure that can be inspected and maintained.
+Friends don’t lie. Neither does the contribution graph.
+
+<picture>
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="./assets/contributions-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-light-static.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
+  <img src="./assets/contributions-light.svg" alt="A snake follows Srivaths’ actual public GitHub contribution calendar." width="100%" loading="lazy">
+</picture>
+
+<sub>Autoplay game scenes, refreshed daily from public contribution activity.</sub>
+
+## Toolbox
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/toolbox-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="./assets/toolbox-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-dark.svg">
+  <img src="./assets/toolbox-light.svg" alt="Srivaths’ workbench. Languages: Python, TypeScript, SQL. AI and retrieval: PyTorch, LangGraph, RAG. Web and APIs: FastAPI, React, Three.js. Data and infrastructure: PostgreSQL, Docker, Kubernetes." width="100%" loading="lazy">
+</picture>
+
+## Current side quests
+
+- **AI agents & retrieval** — connecting models to tools, useful context, and workflows.
+- **Robotics & reinforcement learning** — simulation, robot coordination, and learning through experiments.
+- **Data engineering** — turning messy inputs into reproducible pipelines and useful interfaces.
+- **Financial intelligence** — document understanding, research tools, and risk-aware paper-trading experiments.
+- **Cloud & reliability** — Kubernetes, observability, and making complex systems easier to investigate.
+- **Security & cryptography** — understanding failure modes and how to prevent them.
+
+---
+
+<p align="center"><b>Challenge accepted. See you in the next commit.</b><br>
+<a href="https://github.com/sriv144?tab=repositories">Meet the supporting cast ↗</a></p>
 
